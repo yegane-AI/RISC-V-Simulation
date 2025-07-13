@@ -19,13 +19,6 @@ Hazard detection and pipeline stalling
 Forwarding paths
 Performance stats (CPI, stalls, etc.)
 
-**Project Structure:**
-
-pipeline_simulator/
-├── simulator.py        # Main simulation logic
-├── README.md           # You're reading it!
-
-
 **Example:**
 The simulator currently loads a couple of hardcoded instructions into instruction memory, like a mock ADD x3, x1, x2, and advances them through the pipeline. More instructions and functionality will be added soon.
 
