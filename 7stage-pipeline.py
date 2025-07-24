@@ -77,7 +77,7 @@ pc.next <<= next_pc
 # ---------------------------
 # 6. Stats / Debug Info (Basic Simulation)
 # ---------------------------
-sim_trace = pyrtl.SimulationTrace()
+sim_trace = pyrtl.SimulationTrace() ### Should work a little on simulation. 
 sim = pyrtl.Simulation(tracer=sim_trace)
 
 # Initialize some sample instructions
