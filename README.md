@@ -36,3 +36,6 @@ Forwarding and hazard detection
 Branch prediction
 Testbench support
 
+
+**Further Task**
+Hazard Control! 
