@@ -1,4 +1,4 @@
-module tb_riscv_pipeline;
+module tb_riscv_pipeline;  // Can this text bench cover hazards? how about branches? 
     reg clk, rst;
 
     riscv_pipeline uut (
