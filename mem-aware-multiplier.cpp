@@ -84,4 +84,26 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
+/*  
+g++ -O3 -std=c++17 matrix_multiplication.cpp -o matmul
 
+# Run with default N=1000, BS=32
+./matmul
+
+# Or specify size and block:
+./matmul 2048 64
+*/
+
+// Compile with: g++ -std=c++14 multiplier.cpp -o multiplier
+// Run with: ./multiplier [matrix_size] [block_size]
+// Example: ./multiplier 1000 32
+// This will multiply two 1000x1000 matrices with a block size of 32
+// The default size is 1000x1000 and block size is 32 if not provided
+// The program will output the time taken for both naive and tiled multiplication
+// Ensure you have a C++14 compatible compiler to run this code
+// The program uses random values for matrix elements in the range [0.0, 1.0]
+// The results of the multiplication are stored in matrix C
+// The program can be modified to use different matrix sizes and block sizes
+// The tiled multiplication is expected to be faster due to better cache utilization
+// The naive multiplication is straightforward but less efficient for large matrices
+// The program is designed to demonstrate the performance difference between naive and tiled matrix multiplication
