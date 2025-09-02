@@ -2,6 +2,8 @@
 This project is a simple educational RISC-V pipeline simulator built in Python using PyRTL. PyRTL has been developed in ArchLab at UCSB: 
 https://github.com/UCSBarchlab/PyRTL
 
+maybe better to incorporate the actual hdl?
+
 This project models a 7-stage pipeline based on a subset of the RISC-V instruction set and simulates how instructions move through the pipeline cycle-by-cycle.
 
 **Current Features:** 7-stage pipeline structure:
