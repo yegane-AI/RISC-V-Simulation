@@ -5,7 +5,8 @@ module riscv_pipeline(
     input rst
 );
 
-//To do: Sync the multiplier with this risc-v simulator..
+//To do: Sync the multiplier with this risc-v simulator...
+// To do:
     
 // --- Program Counter ---
 reg [31:0] pc;
