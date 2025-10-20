@@ -1,5 +1,5 @@
 import pyrtl
-## in pyrtl, though doubts if actual vhdl is better. 
+## in pyrtl, though doubts if actual vhdl is better..
 # ---------------------------
 # 1. Define the Instruction Set
 # ---------------------------
