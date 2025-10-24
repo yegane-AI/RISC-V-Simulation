@@ -2,7 +2,7 @@ import pyrtl
 ## in pyrtl, though doubts if actual vhdl is better...
 # ---------------------------
 # 1. Define the Instruction Set
-# ---------------------------
+# ----------------------------
 OPCODES = {
     'ADD': 0,
     'SUB': 1,
