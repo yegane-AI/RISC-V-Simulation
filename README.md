@@ -6,7 +6,7 @@ Other HDLs coming up... Will be mostly focused on Verilog..
 
 This project models a 7-stage pipeline based on a subset of the RISC-V instruction set and simulates how instructions move through the pipeline cycle-by-cycle.
 
-**Current Features:** 7-stage pipeline structure:
+**Current Features:** 7-stage pipeline structure::
 IF → ID → EX1 → EX2 → MEM1 → MEM2 → WB
 
 **Basic instruction decoding:**
